@@ -69,4 +69,50 @@ while True:
 
 
 
+
+
+
 #Functions
+def calculateGmean(a, b): #fuction definition
+    return (a * b) / (a + b)
+
+def calculateHmean(a, b):
+    pass #function definition, but no implementation
+
+
+a = 9
+b = 8
+gmean = calculateGmean(a, b) #function call
+print("gmean of", a, "and", b, "is:", gmean)
+
+c= 10
+d = 20
+gmean = calculateGmean(c, d)
+print("gmean of", c, "and", d, "is:", gmean)
+
+
+# Function Arguments
+def average(a, b): #required arguments
+    print("The average is:", (a + b) / 2)
+average(10, 20) 
+
+
+
+def average1(a=5, b=2): #default arguments
+    print("The average1 is:", (a + b) / 2)
+average1(a=30) 
+
+
+
+def average3(a, b): #keyword arguments
+    print("The average3 is:", (a + b) / 2)
+average3(b=10, a=20) 
+
+
+
+def average4(*numbers): #variable-length arguments
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    print("The average4 is:", sum / len(numbers))
+average4(10, 20, 40, 50, 60) 

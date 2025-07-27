@@ -1,4 +1,3 @@
-'''
 #matchcase : similar to switch case in other languages
 x = int(input("Enter a number: ")) 
 match x:
@@ -18,11 +17,11 @@ match x:
         print("x is greater than four")
 
 
-'''
 
 
 
-'''
+
+
 
 #For-Loop
 name  = "Python"
@@ -45,11 +44,11 @@ for k in range(1,20,2): #range(start, stop, step)
     print(k)
 
     
-'''
 
 
 
-'''
+
+
 
 # While-Loop
 i = 6
@@ -67,7 +66,7 @@ while True:
     if i > 5:
         break
         
-'''
+
 
 
 #Functions

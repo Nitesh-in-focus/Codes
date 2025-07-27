@@ -1,4 +1,4 @@
-'''
+
 # This code demonstrates the use of if-else statements in Python.
 # If-else
 
@@ -39,7 +39,7 @@ if (c >= 18):
         print("You are not eligible to drink alcohol")  
 else:
     print("You are not eligible to vote")
-print("Thank you for using our service")   '''
+print("Thank you for using our service")   
 
 import time
 # Good morning, Sir/Madam

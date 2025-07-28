@@ -115,4 +115,4 @@ def average4(*numbers): #variable-length arguments
     for i in numbers:
         sum = sum + i
     print("The average4 is:", sum / len(numbers))
-average4(10, 20, 40, 50, 60) 
+average4(10, 20, 40, 50, 60, 70, 80, 90, 100) 
